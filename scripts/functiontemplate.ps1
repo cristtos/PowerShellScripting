@@ -36,10 +36,10 @@ function Function-Name {
         )
         PROCESS {
             if ($pscmdlet.ShouldProcess("Continue?")) {
-                Write "Doing it..."
+                Write-Output "Doing it..."
             }
             else {
-                Write "Not doing it..."
+                Write-Output "Not doing it..."
             }
         }
     } #End function
